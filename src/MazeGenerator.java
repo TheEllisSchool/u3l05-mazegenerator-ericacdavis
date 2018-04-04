@@ -47,10 +47,10 @@ public class MazeGenerator extends JFrame {
 		titlePanel.setBackground(Color.BLACK);
 		add(titlePanel, BorderLayout.PAGE_START);
 		Font titleFont = new Font("Fish&Chips", Font.BOLD, 32);
-		JLabel titleLabel = new JLabel("Maze");
+		JLabel titleLabel = new JLabel("Unicorn Maze");
 		titleLabel.setBackground(Color.BLACK);
 		titleLabel.setOpaque(true);
-		titleLabel.setForeground(Color.WHITE);
+		titleLabel.setForeground(Color.MAGENTA);
 		titleLabel.setFont(titleFont);
 		titleLabel.setHorizontalAlignment(JLabel.CENTER);
 		titlePanel.add(titleLabel);

@@ -120,22 +120,21 @@ public class Cell extends JPanel {
 		
 
 		//draw the path
-		g.setColor(Color.PINK);
 		
 		if (path[BOTTOM]) {
-			g.setColor(Color.RED);
+			g.setColor(Color.MAGENTA);
 			g.drawLine(SIZE/2, SIZE/2, SIZE/2, SIZE);
 		}
 		if (path[TOP]) {
-			g.setColor(Color.ORANGE);
+			g.setColor(Color.BLUE);
 			g.drawLine(SIZE/2, 0, SIZE/2, SIZE/2);
 		}
 		if (path[RIGHT]) {
-			g.setColor(Color.YELLOW);
+			g.setColor(Color.GREEN);
 			g.drawLine(SIZE/2, SIZE/2, SIZE, SIZE/2);
 		}
 		if (path[LEFT]) {
-			g.setColor(Color.GREEN);
+			g.setColor(Color.YELLOW);
 			g.drawLine(0, SIZE/2, SIZE/2, SIZE/2);
 		}
 		ImageIcon unicorn = new ImageIcon("unicorn-2007266_960_720.png");
